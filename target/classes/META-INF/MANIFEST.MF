@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1626191506745
+Build-Jdk: 14.0.2
+Built-By: Ram.x.Maurya
+Bundle-Blueprint: OSGI-INF/blueprint/EHD_Integration.xml,OSGI-INF/bluepr
+ int/commonblueprint.xml
+Bundle-Description: EHD_Integration
+Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.html
+Bundle-ManifestVersion: 2
+Bundle-Name: EHD_Integration
+Bundle-SymbolicName: EHD_Integration
+Bundle-Version: 1.0.11
+Created-By: Apache Maven Bundle Plugin
+DynamicImport-Package: *
+Export-Package: in.goindigo.webservices.ehd;uses:="org.apache.camel,org.
+ apache.camel.component.cxf,org.apache.cxf.binding.soap,org.slf4j";versi
+ on="1.0.11"
+Import-Package: javax.xml.namespace,javax.xml.parsers,javax.xml.transfor
+ m.dom,org.apache.camel;version="[2.21,3)",org.apache.camel.component.cx
+ f;version="[2.21,3)",org.apache.cxf.binding.soap;version="[3.2,4)",org.
+ apache.cxf.headers;version="[3.2,4)",org.apache.cxf.staxutils;version="
+ [3.2,4)",org.apache.log4j;version="[1.2,2)",org.osgi.service.blueprint;
+ version="[1.0.0,2.0.0)",org.slf4j;version="[1.7,2)",org.w3c.dom
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.2.0.201605172007

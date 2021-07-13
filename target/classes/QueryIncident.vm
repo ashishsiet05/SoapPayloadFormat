@@ -1,0 +1,6 @@
+            <urn:New_GetList_Operation_1 xmlns:urn="urn:IG:HPDHelpDeskQueryList">
+                        <urn:Qualification>'Incident Number'="INC000003612121"</urn:Qualification>
+                         <urn:startRecord></urn:startRecord>
+                         <urn:maxLimit></urn:maxLimit>
+               </urn:New_GetList_Operation_1>
+  
